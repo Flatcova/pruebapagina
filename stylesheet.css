@@ -1,9 +1,14 @@
+.nav{
+	background-color: #AAAfFF;
+	background-attachment: fixed;
+	background-position: fixed;
+}
 li{
 	background-color:#ABCDEF;
 	height: auto;
 	width: auto;
 	font-size: 15px;
-	border:1px solid #ccc;
+	border:1px solid white;
 	border-radius: 5px;
 	display: inline;
 	padding: 10px;
@@ -11,4 +16,10 @@ li{
 }
 .active {
     background-color:#556677;
+}
+.jumbotron {
+  background-image:url('http://goo.gl/04j7Nn');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
