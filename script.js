@@ -1,12 +1,14 @@
 $(document).ready(function(){
-
-  $('li').hover(
-    function(){
-        $(this).addClass('active');
-    },
-    function(){
-        $(this).removeClass('active');
-    }
-  );
-
+  	$('li').hover(
+    	function(){
+        	$(this).addClass('active');
+    	},
+    	function(){
+        	$(this).removeClass('active');
+    	}
+  	);
+  	$('h1').hide('fast');
+	$(this).click(function(){
+ 		$('h1').show('slow');
+	});
 });

@@ -1,7 +1,5 @@
 .nav{
-	background-color: #AAAfFF;
-	background-attachment: fixed;
-	background-position: fixed;
+	background-color: #AAAAED;
 }
 li{
 	background-color:#ABCDEF;
@@ -13,26 +11,10 @@ li{
 	display: inline;
 	padding: 10px;
 	text-transform: uppercase;
-	background-attachment: scroll;
 }
 .active {
     background-color:#556677;
 }
-.jumbotron {
-  background-image:url("images/112.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  resize: -5000px;
-}
-.jumbotron1 {
-  background-image:url('http://goo.gl/04j7Nn');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  resize: -5000px;
-}
-.jumbotron1 .row{
-	background:transparent;
-	background-clip: content-box;
+.checked{
+	background-color: #FFF;
 }
