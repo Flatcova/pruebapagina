@@ -1,0 +1,14 @@
+li{
+	background-color:#ABCDEF;
+	height: auto;
+	width: auto;
+	font-size: 15px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	display: inline;
+	padding: 10px;
+	text-transform: uppercase;
+}
+.active {
+    background-color:#556677;
+}
