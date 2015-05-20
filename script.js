@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  	$('li').hover(
+  	$('.nav li').hover(
     	function(){
         	$(this).addClass('active');
     	},
@@ -7,8 +7,10 @@ $(document).ready(function(){
         	$(this).removeClass('active');
     	}
   	);
-  	$('h1').hide('fast');
-	$(this).click(function(){
- 		$('h1').show('slow');
-	});
+
+    $('.sub-nav').hide('fast');
+
+    $('.pull-left').click(function(){
+        $('.sub-nav').toggle();
+      });
 });
