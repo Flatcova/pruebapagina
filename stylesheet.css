@@ -32,6 +32,12 @@ li img{
 	border-radius: 55px;
 	display: inline;
 }
+.jumbotron {
+	background-image: url('images/lodging.png');
+	background-size: cover;
+	height: 500px;
+	background-repeat: no-repeat;
+}
 .sub-nav{
 	background-color:#FED;
 	height: auto;
@@ -47,3 +53,4 @@ li img{
 ol{
 	list-style-type: none;
 }
+
