@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /pruebapagina
+exclude: ['README.md']
