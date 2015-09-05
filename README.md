@@ -1,1 +1,1 @@
-# pruebapagina
+# En esta pagina voy a demostrar que se puede hacer utilizando Angular JS remplazando las funciones de JavaScript y hacer mas facil la comunicacion entre vista y controlador.
