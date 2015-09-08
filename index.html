@@ -2,4 +2,9 @@
 layout: header
 ---
 
-<img src="{{site.baseurl}}/images/pf.ico">
+<div ng-repeat="info in regist.persons">
+	<h2>{{info.name}}</h2>
+	<h6>{{info.age}}</h6>
+	<p>{{info.description}}</p>
+</div>
+

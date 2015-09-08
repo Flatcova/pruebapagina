@@ -4,9 +4,30 @@ layout: default
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 	<header class="mdl-layout__header">
 		<div class="mdl-layout__header-row">
-			<span class="mdl-layout-title">wasa</span>
+			
+			<span class="mdl-layout-title">RecordMan</span>
+		
+			<div class="mdl-layout-spacer"></div>
+			<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect -mdlbutton--colored log">Log in
+			</button>
+			<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect -mdlbutton--colored">Sing in
+			</button>
+		</div>
+		<div class="mdl-layout__header-row login">
+			<div class="mdl-layout-spacer"></div>
+			Account: 
+			<div class="mdl-textfield mdl-js-textfield">
+				<input class="mdl-textfield__input" id="user" type="text" pattern="[A-Z,a-z,@-._,0-9 ]*"/>
+				<label for="user" class="mdl-textfield__label">email@example.com</label>
+			</div>
+			Password: 
+			<div class="mdl-textfield mdl-js-textfield">
+				<input class="mdl-textfield__input" type="password" pattern="[A-Z,a-z,@-._,0-9 ]*"/>
+				<label class="mdl-textfield__label">Password</label>
+			</div>
 		</div>
 	</header>
+
 	<main class="mdl-layout__content">
 		<a name="top"></a>
 		{{content}}
